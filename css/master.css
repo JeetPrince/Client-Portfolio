@@ -1,0 +1,63 @@
+.title-underline {
+    width: 200px;
+    height: 4px;
+    margin: 0 auto;
+}
+
+.title-underline-2 {
+    width: 100px;
+    height: 4px;
+    margin: 0 auto;
+}
+
+#index {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .1)) ,url(../imgs/background.jpg)center/cover no-repeat fixed;
+}
+
+#details {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .1)) ,url(../imgs/details.jpg)center/cover no-repeat fixed;
+}
+
+#main {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .1)) ,url(../imgs/hobbies.jpg)center/cover no-repeat fixed;
+}
+
+.arrow-down:before {
+    content: "\25bc";
+    color: whitesmoke;
+    float: right;
+}
+
+.max-height {
+ min-height: 100vh;
+}   
+
+.no-outline {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.my-link {
+    font-size: 2.5em;
+    padding: 5px;
+    color: #FAD02E;
+}
+
+.my-link:hover {
+    text-decoration: none;
+    color: rgb(194, 162, 37);
+}
+
+.text-para {
+    font-size: 2.2em;
+}
+
+.bg-new-dark {
+    background-color: #1d2124 !important;
+  }
+  
+a.bg-new-dark:hover, a.bg-new-dark:focus,
+button.bg-new-dark:hover,
+button.bg-new-dark:focus {
+    background-color: #1d2124 !important;
+}
